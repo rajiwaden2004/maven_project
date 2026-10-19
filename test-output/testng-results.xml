@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-18T16:24:22 IST" name="Default suite" finished-at="2026-10-18T16:24:22 IST" duration-ms="212">
+  <suite started-at="2026-10-19T10:26:53 IST" name="Suite" finished-at="2026-10-19T10:26:53 IST" duration-ms="198">
     <groups>
     </groups>
-    <test started-at="2026-10-18T16:24:22 IST" name="Default test" finished-at="2026-10-18T16:24:22 IST" duration-ms="212">
-      <class name="test.selenium_Automation.new_demotesting">
-        <test-method signature="show()[pri:0, instance:test.selenium_Automation.new_demotesting@6302bbb1]" started-at="2026-10-18T16:24:22 IST" name="show" finished-at="2026-10-18T16:24:22 IST" duration-ms="49" status="PASS">
+    <test started-at="2026-10-19T10:26:53 IST" name="Test" finished-at="2026-10-19T10:26:53 IST" duration-ms="198">
+      <class name="test.selenium_Automation.parameterized_Testing">
+        <test-method signature="dispaly_number(int)[pri:0, instance:test.selenium_Automation.parameterized_Testing@7cc0cdad]" started-at="2026-10-19T10:26:53 IST" name="dispaly_number" finished-at="2026-10-19T10:26:53 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- show -->
-        <test-method signature="xyz()[pri:0, instance:test.selenium_Automation.new_demotesting@6302bbb1]" started-at="2026-10-18T16:24:22 IST" name="xyz" finished-at="2026-10-18T16:24:22 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- xyz -->
-      </class> <!-- test.selenium_Automation.new_demotesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- dispaly_number -->
+      </class> <!-- test.selenium_Automation.parameterized_Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
